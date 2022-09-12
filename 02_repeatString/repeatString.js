@@ -1,9 +1,11 @@
+let word = '';
 
 const repeatString = function(string, num) {
-    let word = string;
+    word = string;
     let finalPhrase = '';
     for (i = 0 ; i < num ; i++){
         finalPhrase += string;
+        return finalPhrase;
     }
 
 };
