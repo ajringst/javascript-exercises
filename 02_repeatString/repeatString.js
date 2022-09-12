@@ -5,9 +5,8 @@ const repeatString = function(string, num) {
     let finalPhrase = '';
     for (i = 0 ; i < num ; i++){
         finalPhrase += string;
-        return finalPhrase;
     }
-
+    return finalPhrase;
 };
 
 // Do not edit below this line
